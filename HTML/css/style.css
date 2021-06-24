@@ -1,0 +1,305 @@
+/* Font Google - strong reaload time */
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,300,700,900&subset=latin,latin-ext);
+
+@import url(https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap);
+
+html, body{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size:15px;
+  -webkit-font-smoothing: subpixel-antialiased!important;
+  color:black;
+  font-weight:400;
+  height:100%;
+}
+
+a{
+  text-decoration:none;
+  outline:none;
+}
+
+h1{
+  font-size:56px;
+  color:white;
+  font-weight:bold;
+  text-transform:uppercase;
+  line-height:1.2;
+}
+
+p{
+  font-size:19px;
+  color:white;
+  margin-top:50px;
+}
+
+
+h1 span{
+  color:#2fa65d;
+}
+
+
+::selection {
+  background: #fff;
+  color:#2fa68e;
+}
+
+::-moz-selection {
+  background: #fff;
+  color:#2fa68e;
+}
+
+
+.container{
+  position:absolute;
+  width:100%;
+  height:100%;
+}
+
+
+/* Start page */
+
+.start-page{
+  position:relative;
+  width:100%;
+  height:580px;
+  background:url('../img/background/start-page.jpg') 0px 0px fixed;
+}
+
+.start-page .opacity{
+  position:absolute;
+  width:100%;
+  height:580px;
+  background:rgba(0,0,0,0.7);
+}
+
+.lema:hover {
+  color: #2fa65d;
+}
+
+.start-page .content{
+  position:relative;
+  width:900px;
+  margin:0 auto;
+  height:580px;
+}
+
+.start-page .content .text{
+  position:absolute;
+  text-align:center;
+  margin:auto;
+  top:0; 
+  left:0; 
+  bottom:0; 
+  right:0;
+  width:500px;
+  height:320px;
+}
+
+.start-page .content .text{
+  position:absolute;
+  text-align:center;
+  margin:auto;
+  top:0; 
+  left:0; 
+  bottom:0; 
+  right:0;
+  width:500px;
+  height:320px;
+}
+
+.start-page .content .text .read-more{
+  width:183px;
+  height:47px;
+  margin:50px auto;
+  line-height:47px;
+  border:1px solid white;
+  text-transform:uppercase;
+  color:white;
+  cursor:pointer;
+  font-size:19px;
+  background:none;
+  -webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-ms-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+}
+
+.start-page .content .text .read-more:hover{
+  color:black;
+  background:#2fa65d;
+}
+
+.start-page .content .arrow-down{
+  position: absolute;
+  bottom: 110px;
+  left: 50%;
+  margin-left: -10px;
+  width: 21px;
+  height: 29px;
+  background: url(../img/arrow-down.png) no-repeat center center;
+  display: block;
+  -webkit-animation: bounce-fade 1.2s infinite; /* Safari 4+ */
+  -moz-animation:    bounce-fade 1.2s infinite; /* Fx 5+ */
+  -o-animation:      bounce-fade 1.2s infinite; /* Opera 12+ */
+   animation:        bounce-fade 1.2s infinite; /* IE 10+ */
+}
+
+
+@-webkit-keyframes bounce-fade {
+    0%   { opacity: 0; bottom: 70px; }
+    100% { opacity: 1; bottom: 35px; }
+}
+@-moz-keyframes bounce-fade {
+    0%   { opacity: 0; bottom: 70px; }
+    100% { opacity: 1; bottom: 35px; }
+}
+@-o-keyframes bounce-fade {
+    0%   { opacity: 0; bottom:70px; }
+    100% { opacity: 1; bottom: 35px; }
+}
+@keyframes bounce-fade {
+    0%   { opacity: 0; bottom: 70px; }
+    100% { opacity: 1; bottom: 35px; }
+}
+
+
+/* Menu mobile */
+
+.menu-media{
+  position:relative;
+  width:100%;
+  height:90px;
+  background:#2f363e;
+  z-index:1000;
+  display:none;
+}
+
+.menu-media .menu-content{
+  width:280px;
+  position:relative;
+  margin:0 auto;
+}
+
+.menu-media .menu-content .logo {
+   color: #a3b2c0;
+   font-weight:700;
+   font-size:18px;
+   font-family: 'Dela Gothic One';
+   width:200px;
+   line-height:90px;
+   float:left;
+   list-style: none;
+}
+
+.menu-media .menu-content .logo:hover {
+  color: #2fa65d;
+}
+
+.menu-media .menu-content .icon{
+
+  width:41px;
+  height:23px;
+  float:right;
+  line-height:100px;
+
+}
+
+
+/* Menu */
+
+.menu{
+  position:relative;
+  width:100%;
+  height:90px;
+  background:#2f363e;
+  z-index:1000;
+}
+
+.menu-content{
+  width:900px;
+  position:relative;
+  margin:0 auto;
+}
+
+.menu-content .logo {
+   color: #a3b2c0;
+   background:#2f363e;
+   font-weight:700;
+   font-size:27px;
+   font-family: 'Patrick Hand', cursive;   
+   width:300px;
+   line-height:90px;
+   float:left;
+   list-style: none;
+ }
+
+.menu-content .logo:hover {
+  color: #2fa65d;
+  background:#2f363e;
+}
+
+
+.menu-click{
+  display:none;
+}
+
+
+.menu-click li {
+  position:relative;
+  width:100%;
+  height:70px;
+  color:#a3b2c0;;
+  font-size:29px;
+  text-align:center;
+  line-height:70px;
+  background:#2f363e;
+  z-index:1000;
+  border-bottom:1px solid #1a7966;
+  -webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-ms-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+ }
+
+.menu-click li:hover {
+  color:#2fa65d;
+  font-size: 32px;
+ }
+
+.menu-content ul{
+
+  width:500px;
+  left:50%;
+  float:right;
+  text-align:right;
+  list-style:none;
+}
+
+.menu-content li{
+   display:inline-block;
+   position:relative;
+}
+
+.menu-content li a{
+  color:#a3b2c0;
+  font-size:16px;
+  display: block;
+  padding: 0 20px 0 20px;
+  line-height:90px;
+  -webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-ms-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+}
+
+.menu-content li.active a{
+  background-color:#131a21;
+}
+
+.menu-content li a:hover{
+  color:#2fa65d;
+}
+
+
